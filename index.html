@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+{% for post in site.posts %}
+<article class="pl-item">
+  <div class="pl-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  <h2 class="pl-title">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h2>
+</article>
+{% endfor %}

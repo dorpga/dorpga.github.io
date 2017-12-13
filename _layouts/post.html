@@ -7,12 +7,14 @@
   </head>
   <body>
     {% include header.html %}
-    <article>
-      <h1 id="page-title">{{ page.title | smartify }}</h1>
-      <div id="page-content">
-        {{ content }}
-      </div>
-    </article>
+    <main>
+      <article>
+        <h1 id="page-title">{{ page.title | smartify }}</h1>
+        <div id="page-content">
+          {{ content }}
+        </div>
+      </article>
+    </main>
     {% include comments.html %}
     {% include footer.html %}
   </body>

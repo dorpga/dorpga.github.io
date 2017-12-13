@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title | smartify }}</title>
+    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  </head>
+  <body>
+    <article>
+      <h1 id="page-title">{{ page.title | smartify }}</h1>
+      <div id="page-content">
+        {{ page.content }}
+      </div>
+    </article>
+  </body>
+</html>

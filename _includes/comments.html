@@ -2,22 +2,22 @@
   <input name="options[redirect]" type="hidden" value="http://dorper.me{{ page.url }}?cs=1">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   
-  <div class="form-control" id="comments-form-control--name">
+  <div id="comments-form-control--name">
     <label for="fields[name]">Name</label><br>
-    <input name="fields[name]" type="text">
+    <input name="fields[name]" type="text" class="form-control">
   </div>
   
-  <div class="form-control" id="comments-form-control--email">
+  <div id="comments-form-control--email">
     <label for="fields[email]">E-Mail</label><br>
-    <input name="fields[email]" type="email">
+    <input name="fields[email]" type="email" class="form-control">
   </div>
   
-  <div class="form-control" id="comments-form-control--message">
+  <div id="comments-form-control--message">
     <label for="fields[message]">Message</label><br>
-    <textarea name="fields[message]"></textarea>
+    <textarea name="fields[message]" class="form-control"></textarea>
   </div>
   
-  <div class="form-control" id="comments-form-control--submit">
+  <div id="comments-form-control--submit">
     <input type="submit" class="button" value="Submit">
   </div>
 </form>

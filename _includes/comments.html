@@ -5,8 +5,15 @@
     {% for comment in site.data.comments[page.slug] %}
     {% assign c = comment[1] %}
     <div class="Box-row commentsbox--comment">
-        <h3>{{ c.name }}</h3>
-        <p>{{ c.message }}</p>
+        <div class="columns">
+            <div class="column">
+                <img src="http://identicon.org/?t={{ c.email }}&s=128" alt="Avatar for {{ c.name }}" height="128" width="128">
+            </div>
+            <div class="column">
+                <h3>{{ c.name }}</h3>
+                <p>{{ c.message }}</p>
+            </div>
+        </div>
     </div>
     {% endfor %}
     <div class="Box-row commentsbox--form">

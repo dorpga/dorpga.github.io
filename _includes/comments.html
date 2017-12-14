@@ -4,8 +4,8 @@
     </div>
     {% for comment in site.data.comments[page.slug] %}
     <div class="Box-row commentsbox--comment">
-        <h3>{{ comment[0] }}</h3>
-        <p>{{ comment[3] }}</p>
+        <h3>{{ comment[0].name }}</h3>
+        <p>{{ comment[0].message }}</p>
     </div>
     {% endfor %}
     <div class="Box-row commentsbox--form">

@@ -3,9 +3,10 @@
         <h3 class="Box-title">Comments</h3>
     </div>
     {% for comment in site.data.comments[page.slug] %}
+    {% assign c = comment[1] %}
     <div class="Box-row commentsbox--comment">
-        <h3>{{ comment[0].name }}</h3>
-        <p>{{ comment[0].message }}</p>
+        <h3>{{ c.name }}</h3>
+        <p>{{ c.message }}</p>
     </div>
     {% endfor %}
     <div class="Box-row commentsbox--form">

@@ -5,7 +5,7 @@ layout: default
 <div class="container-xl gutter-condensed mt-3 mb-3 ml-2 mr-2">
     <div class="column col-xl-3 col-lg-3 col-md-3 col-sm-12">
         <nav class="menu">
-            <h3 class="menu-heading menu-heading--black">Categories</h3>
+            <h3 class="menu-heading menu-heading--black">{% octicon list-unordered %} Categories</h3>
             {% assign categories_list = site.categories %}
             {% if categories_list.first[0] == null %}
             {% for category in categories_list %}
@@ -22,7 +22,7 @@ layout: default
     <div class="column col-xl-9 col-lg-9 col-md-9 col-sm-12">
         <div class="Box Box--condensed">
             <div class="Box-header">
-                <h3 class="Box-title">Posts</h3>
+                <h3 class="Box-title">{% octicon book %} Posts</h3>
             </div>
             <div id="PostBoxBody">
                 {% for post in site.posts %}

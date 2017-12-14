@@ -3,13 +3,13 @@ title: Dorper has moved to GitHub Pages
 categories: announcements
 ---
 
-Dorper has recently moved to [https://pages.github.com](GitHub Pages] for multiple reasons.
+Dorper has recently moved to [GitHub Pages](https://pages.github.com) for multiple reasons.
 
 ## Free
 GitHub Pages is free, hosting my own server isn't.
 
 ## Jekyll
-GitHub Pages provides enhanced [https://jekyllrb.com](Jekyll) hosting.
+GitHub Pages provides enhanced [Jekyll](https://jekyllrb.com) hosting.
 Jekyll is a "static" website system written in [Ruby](https://www.ruby-lang.org).
 I have rewritten the website so it works with Jekyll.
 

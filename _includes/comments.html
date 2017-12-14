@@ -10,8 +10,8 @@
                 <img src="http://identicon.org/?t={{ c.email }}&s=64" alt="Avatar for {{ c.name }}" height="64" width="64">
             </div>
             <div class="column">
-                <h3>{{ c.name }}</h3>
-                <p>{{ c.message }}</p>
+                <h3 class="comment-title">{{ c.name }}</h3>
+                <div class="comment-body">{{ c.message | markdownify }}</div>
             </div>
         </div>
     </div>

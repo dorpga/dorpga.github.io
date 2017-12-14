@@ -2,11 +2,11 @@
     <div class="Box-header">
         <h3 class="Box-title">Comments</h3>
     </div>
-    <% for comment in site.data.comments[page.slug] %>
+    {% for comment in site.data.comments[page.slug] %}
     <div class="Box-row commentsbox--comment">
         {{ comment }}
     </div>
-    <% endfor %>
+    {% endfor %}
     <div class="Box-row commentsbox--form">
         <form method="POST" action="https://api.staticman.net/v2/entry/dorpga/site/master/comments" id="comments-form">
         <input name="options[redirect]" type="hidden" value="http://dorper.me{{ page.url }}?cs=1">

@@ -1,5 +1,5 @@
 ---
-title: Why I belive Typescript shouldn't exist
+title: Why I believe Typescript shouldn't exist
 categories: programming
 ---
 

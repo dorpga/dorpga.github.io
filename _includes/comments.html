@@ -46,7 +46,16 @@
 <script>
     (function() {
         var cel = document.querySelector("[data-box=cta]");
-        var ce = CodeMirror.fromTextArea(cel);
+        var ce = CodeMirror.fromTextArea(cel, {
+            mode: {
+              name: "gfm",
+              tokenTypeOverrides: {
+                emoji: "emoji"
+              }
+            },
+            lineNumbers: true,
+            theme: "default"
+        });
     })();
 </script>
 

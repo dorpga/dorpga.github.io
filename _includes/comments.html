@@ -43,4 +43,10 @@
     </div>
 </div>
 
-<script src="{{ "/js/comments.js" | relative-url }}"></script>
+<script>
+    function() {
+        var cel = document.querySelector("[data-box=cta]")
+        var ce = CodeMirror.fromTextArea(cel);
+    }();
+</script>
+

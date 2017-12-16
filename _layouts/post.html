@@ -2,14 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title | smartify }}</title>
-        <meta content="{{ page.title }}" property="og:title">
-        <meta content="{{ /images/opengraph.png | relative_url }}" property="og:image">
-        <meta content="{{ page.url }}" property="og:url">
-        <meta content="article" property="og:type">
-        <meta content="{{ post.author }}" property="article:author">
-        <meta content="{{ post.categories }}" property="article:section">
-        <meta content="{{ post.tags }}" property="article:tag">
+        {% include opengraph.html %}
         {% include scripts.html %}
     </head>
     <body>

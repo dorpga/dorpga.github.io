@@ -1,48 +1,48 @@
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
+  <meta content="{{ category }}" name="article:section">
   {% endfor %}
 {% endif %}
 {% if page.tags %}
   {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
+  <meta content="{{ tag }}" name="article:tag">
   {% endfor %}
 {% endif %}
-<meta content="{{ site.title }}" property="og:site_name">
+<meta content="{{ site.title }}" name="og:site_name">
 {% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{ page.title }}" name="og:title">
 {% else %}
-  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{ site.title }}" name="og:title">
 {% endif %}
 {% if page.title %}
-  <meta content="article" property="og:type">
+  <meta content="article" name="og:type">
 {% else %}
-  <meta content="website" property="og:type">
+  <meta content="website" name="og:type">
 {% endif %}
 {% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{ page.description }}" name="og:description">
 {% else %}
-  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{ site.description }}" name="og:description">
 {% endif %}
 {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  <meta content="{{ site.url }}{{ page.url }}" name="og:url">
 {% endif %}
 {% if page.date %}
-  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
+  <meta content="{{ page.date | date_to_xmlschema }}" name="article:published_time">
+  <meta content="{{ site.url }}/about/" name="article:author">
 {% endif %}
 {% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
+  <meta content="/img/srcset/{{ page.image }}" name="og:image">
 {% else %}
-  <meta content="/img/logo-high-resolution.png" property="og:image">
+  <meta content="/img/logo-high-resolution.png" name="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
+  <meta content="{{ category }}" name="article:section">
   {% endfor %}
 {% endif %}
 {% if page.tags %}
   {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
+  <meta content="{{ tag }}" name="article:tag">
   {% endfor %}
 {% endif %}

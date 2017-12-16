@@ -1,6 +1,8 @@
 ---
 title: Open vs Closed Source Software
-categories: opensource
+date: 2017-12-14 00:00:00 Z
+categories:
+- opensource
 ---
 
 Software can either be open or closed source. Open source means that anyone can fetch, edit and compile the software without paying a fee. Closed source means that the source code of the program is not publicly available. Popular open source projects include [Linux](http://kernel.org), [Apache Web Server](http://httpd.apache.org), [GIMP](https://gimp.org) and [7-zip](http://7-zip.org). Popular closed sourced projects include [Microsoft Windows](http://windows.com), [Adobe Flash](http://flash.com) and [iTunes](http://itunes.com). Both of these source code distribution models have their pros and cons.

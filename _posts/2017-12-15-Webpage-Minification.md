@@ -1,9 +1,12 @@
 ---
 title: Solving the issue of website bloat
+date: 2017-12-15 00:00:00 Z
+categories:
+- programming
 description: How minification could improve speeds on your website.
-categories: programming
 author: Carver Harrison
 ---
+
 HTML, CSS and Javascript bloat is getting out of hand. Website bloat slows down your site, makes users annoyed and costs money. These are ways that you can remove bloat from your website
 
 ## Minification

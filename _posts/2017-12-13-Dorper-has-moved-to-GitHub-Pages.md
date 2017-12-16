@@ -1,6 +1,8 @@
 ---
 title: Dorper has moved to GitHub Pages
-categories: announcements
+date: 2017-12-13 00:00:00 Z
+categories:
+- announcements
 ---
 
 Dorper has recently moved to [GitHub Pages](https://pages.github.com) for multiple reasons.

@@ -1,2 +1,4 @@
 title: Dorper
 name: Dorper
+plugins:
+  - jemoji

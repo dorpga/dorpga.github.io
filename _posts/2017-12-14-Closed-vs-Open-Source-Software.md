@@ -18,7 +18,7 @@ OSS is much easier to port to other systems than CSS is. For example, [NXEngine]
 OSS usually has a more helpful community than CSS does. Of cource there is holy wars that are found in every community (PC vs. Mac, Console vs. PC, Vi vs. Emacs, Distro A vs. Distro B, etc.) but you can usually find an answer to a problem that you are having with a program.
 ## Closed Source
 ### Privacy
-OSS advocates like to say that CSS is evil because it is possible to "phone home" and that it is almost imposible to detect. However, these people are thinking inside the box. It is quite easy to tell if software is phoning home. All you have to do is open up the network monitor on your computer. If you think that the operating system could be hiding the network activity, you are being close minded as well. What you have to do is check the router's logs to see if anything fishy is happening on your internet
+OSS advocates like to say that CSS is evil because it is possible to "phone home" and that it is almost imposible to detect. However, these people are thinking inside the box. It is quite easy to tell if software is phoning home. All you have to do is open up the network monitor on your computer. If you think that the operating system could be hiding the network activity, you are being close minded as well. What you have to do is check the router's logs to see if anything fishy is happening on your internet.
 ### Exploits
 This one is a very big flaw in CSS. It is much easier to find and fix exploits in OSS than in CSS packages like Windows due to the amount of people who review the code each day in OSS projects like Linux.
 ### Price

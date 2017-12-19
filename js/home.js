@@ -1,10 +1,12 @@
-document.querySelectorAll('.CategoryButton').addEventListener('click', function() {
-	var c = this.getAttribute('data-value')
-	document.querySelectorAll('.PostBox').forEach(function() {
-		if (this.getAttribute('data-category') == c) {
-			this.style.visibility = 'visible';
-		} else {
-			this.style.visibility = 'hidden';
-		}
-	});
+document.querySelectorAll('.CategoryButton').forEach(function(i) {
+	i.addEventListener('click', function() {
+		var c = i.getAttribute('data-value')
+		document.querySelectorAll('.PostBox').forEach(function(j) {
+			if (j.getAttribute('data-category') == c) {
+				j.style.visibility = 'visible';
+			} else {
+				j.style.visibility = 'hidden';
+			}
+		});
+	})
 });

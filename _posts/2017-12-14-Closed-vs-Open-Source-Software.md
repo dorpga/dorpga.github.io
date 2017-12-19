@@ -5,10 +5,10 @@ categories:
 - opensource
 ---
 
-Software can either be open or closed source. Open source means that anyone can fetch, edit and compile the software without paying a fee. Closed source means that the source code of the program is not publicly available. Both of these source code distribution models have their pros and cons.
+There is and has been a debate about open and closed source software and which is the superior software model. In this post I will be talking about the pros and cons of both models.
 
 ## Open Source
-Popular open source projects include [Linux](http://kernel.org), [Apache Web Server](http://httpd.apache.org), [GIMP](https://gimp.org) and [7-zip](http://7-zip.org).
+Open source means that anyone can fetch, edit and compile the software without paying a fee. Popular open source projects include [Linux](http://kernel.org), [Apache Web Server](http://httpd.apache.org), [GIMP](https://gimp.org) and [7-zip](http://7-zip.org).
 ### Free (as in cost)
 I'll get this one out of the way first. A major reason people use OSS (Open Source Software) over CSS (Closed Source Software) is that it usually has no cost. This is evident by the fact that most people who use OSS do not donate to the creators of the projects. If you use OSS, please donate to the individual projects and not through a organization like the [FSF](http://fsf.org) because the FSF will use it to buy more overpriced libreboot computers (EDIT: They do not buy 100% free software computers as shown buy their list of expenses for 2015 which includes HP Servers and Desktops).
 ### Free (as in freedom)
@@ -17,8 +17,9 @@ One main talking point from OSS advocates is that OSS "protects your freedom." T
 OSS is much easier to port to other systems than CSS is. For example, [NXEngine](http://nxengine.sourceforge.net), an open source Cave Story engine, has been ported to almost every platform under the sun. There is even a TI Nspire CX port of NXEngine. With CSS, you have to wait for the developer to port the software to less popular platforms.
 ### Community
 OSS usually has a more helpful community than CSS does. Of cource there is holy wars that are found in every community (PC vs. Mac, Console vs. PC, Vi vs. Emacs, Distro A vs. Distro B, etc.) but you can usually find an answer to a problem that you are having with a program.
+
 ## Closed Source
-Popular closed sourced projects include [Microsoft Windows](http://windows.com), [Adobe Flash](http://flash.com) and [iTunes](http://itunes.com).
+Closed source means that the source code of the program is not publicly available. Both of these source code distribution models have their pros and cons. Popular closed sourced projects include [Microsoft Windows](http://windows.com), [Adobe Flash](http://flash.com) and [iTunes](http://itunes.com).
 ### Privacy
 OSS advocates like to say that CSS is evil because it is possible to "phone home" and that it is almost imposible to detect. However, these people are thinking inside the box. It is quite easy to tell if software is phoning home. All you have to do is open up the network monitor on your computer. If you think that the operating system could be hiding the network activity, you are being close minded as well. What you have to do is check the router's logs to see if anything fishy is happening on your internet.
 ### Exploits

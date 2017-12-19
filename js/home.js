@@ -3,7 +3,7 @@ document.querySelectorAll('.CategoryButton').forEach(function(i) {
 		var c = i.getAttribute('data-value')
 		document.querySelectorAll('.PostBox').forEach(function(j) {
 			if (j.getAttribute('data-category') == c) {
-				j.style.display = 'initial';
+				j.style.display = 'block';
 			} else {
 				j.style.display = 'none';
 			}

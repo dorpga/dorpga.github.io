@@ -27,7 +27,7 @@ layout: default
             </div>
             <div id="PostBoxBody">
                 {% assign posts = site.posts | sort: 'date' %}
-                {% for post in posts %}
+                {% for post in posts reversed %}
                 <div class="Box-row PostBox" id="post-{{ post.slug }}" data-category="{{ post.categories }}" data-title="{{ post.title }}" data-slug="{{ post.slug }}">
                     <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
                     <p>{{ post.excerpt }}</p>

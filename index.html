@@ -26,7 +26,8 @@ layout: default
                 <h3 class="Box-title">{% octicon book %} Posts</h3>
             </div>
             <div id="PostBoxBody">
-                {% for post in site.posts %}
+                {% assign posts = site.posts | sort: 'date' %}
+                {% for post in posts %}
                 <div class="Box-row PostBox" id="post-{{ post.slug }}" data-category="{{ post.categories }}" data-title="{{ post.title }}" data-slug="{{ post.slug }}">
                     <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
                     <p>{{ post.excerpt }}</p>

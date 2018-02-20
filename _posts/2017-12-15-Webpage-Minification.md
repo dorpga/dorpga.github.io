@@ -16,7 +16,7 @@ Javascript and CSS are a major offender when it comes to bloat. The good thing i
 If you don't have any Javascript code, then you don't need Javascript libraries. Removing any unneeded Javascript libraries from your page will speed up your webpage.
 
 ## Customize
-If you use a framework like Bootstrap, you are able to select what components you want. Instead of choosing everything, choose only the things you need. For example, if you use bootstrap just for the Grid, then only include the Grid or better yet, find a more lightweight stylesheet that does the same job better like [Flexbox Grid](http://flexboxgrid.com).
+If you use a framework like Bootstrap, you are able to select what components you want. Instead of choosing everything, choose only the things you need. For example, if you use bootstrap just for the grid, then only include the grid or better yet, find a more lightweight stylesheet that does the same job better like [Flexbox Grid](http://flexboxgrid.com).
 
 ## Leverage the Server
-Don't have the client compile templates or retrive data to put into a table when the server can do that much quicker and without the pain that comes with AJAX. If possible, have the server compile templates and insert components, otherwise, you are using Javascript as a glorified Frameset.
+Don't have the client compile templates or retrieve data to put into a table when the server can do that much quicker and without the pain that comes with AJAX. If possible, have the server compile templates and insert components, otherwise, you are using Javascript as a glorified frameset.
